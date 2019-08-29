@@ -7,7 +7,7 @@ export class Header extends Component {
       <header>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">
-                MemoApp
+                Notes App
               </a>
               <button
                 class="navbar-toggler"
@@ -24,8 +24,8 @@ export class Header extends Component {
             <ul className="navbar-nav mr-auto">
               
               <li className="nav-item">
-                <Link to="/memo" className="nav-link">
-                  Memo
+                <Link to="/Notes" className="nav-link">
+                  Notes
                 </Link>
               </li>
               <li className="nav-item">

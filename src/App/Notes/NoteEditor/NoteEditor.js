@@ -16,7 +16,7 @@ export class NoteEditor extends Component {
             text: e.target.value
         })
     }
-    hadleColorChange(e, color) {
+    handleColorChange(e, color) {
         this.input = e.target;
         this.setState({
             color: color,
@@ -47,7 +47,7 @@ export class NoteEditor extends Component {
                     placeholder="Enter your note here..."
                     rows={5}
                     value={this.state.text}
-                    onChange={this.hadleTextChange}>
+                    onChange={this.handleTextChange}>
                 </textarea>
                 <div className="controls">
                     <NoteColors onColorChanged={this._hadleColorChange}/>

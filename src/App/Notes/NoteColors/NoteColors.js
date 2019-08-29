@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 export class NoteColors extends Component {
+    
   render() {
     let colors = ["grey", "green", "tomato", "yellow", "red", "brown"];
     return (

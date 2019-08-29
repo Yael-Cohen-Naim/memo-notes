@@ -2,7 +2,7 @@ import React from "react";
 import "./App.scss";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Header from "./Header/Header";
-import Memo from "./Memo/Memo";
+import Notes from './Notes/Notes';
 import Todolist from "./Todolist/Todolist";
 
 export class App extends React.Component {
@@ -12,7 +12,7 @@ export class App extends React.Component {
         <div className="App">
           <Header />
           <main className="container">
-            <Route path="/Memo" component={Memo} />
+            <Route path="/Notes" component={Notes} />
             <Route path="/Todolist" component={Todolist} />
           </main>
         </div>
